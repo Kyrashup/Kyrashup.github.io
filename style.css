@@ -1,0 +1,52 @@
+.container-main{
+  width: 100vw;
+  position: absolute;
+  height:100vh;
+}
+.container-text{
+  height:300px;
+  margin-bottom:50px;
+  margin:  auto;
+  margin-top:10%;
+ 
+}
+body{
+  color:white;
+}
+.box{
+  padding:20px;
+  margin:10px;
+  background-color: rgb(172, 127, 255);
+  display: inline-block;
+  width:200px;
+  text-align: center;
+
+}
+.h2{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ color:black;
+}
+.container-text2{
+  margin-top:250px;
+}
+
+
+
+@media only screen and (max-width: 768px){    /* Стили для мобильных устройств */
+  .container-text{
+    width:400px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {  /* Стили для планшетов */
+  .container-text{
+    width:600px;
+  }
+}
+
+@media only screen and  (min-width: 1025px) {
+  .container-text{/* Стили для настольных компьютеров */
+    width:800px
+  }
+} 
